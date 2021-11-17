@@ -1,4 +1,8 @@
-#Ciberbit React Application Boilerplate
+# Two React Applications Working on the Same Page
+> This examples here made to explain how to react applications can live independently on the same page. 
+> react-app-1 uses the react-app-2 
+
+# `Do the following steps for each react applications`
 
 ## Application deploy
 
@@ -8,10 +12,7 @@ Before run, build or deploy the application follow the following steps:
 1. Make sure to change `id` referenced on the `getElementById` inside `index.tsx`
 1. If you're thinking in using more than one react application in on page be sure to change the `filename` of the `output` javascript inside `webpack.common.js`
 1. Copy the content of the `build/` directory into your web server
-
-## Download the starter kit
-
-npx degit https://github.com/gopinav/React-TypeScript-Webpack-Starter my-app
+1. If your running the dev server make sure all apps have different ports.
 
 ## Install dependencies
 
