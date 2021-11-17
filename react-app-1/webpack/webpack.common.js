@@ -36,8 +36,8 @@ module.exports = {
         ],
     },
     output: {
-        path: path.resolve(__dirname, '..', './build1'),
-        filename: 'bundle.js',
+        path: path.resolve(__dirname, '..', './build'),
+        filename: 'bundle1.js',
     },
     plugins: [
         new HtmlWebpackPlugin({
