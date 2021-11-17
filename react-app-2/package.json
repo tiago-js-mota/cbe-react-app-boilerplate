@@ -1,5 +1,5 @@
 {
-  "name": "CiberbitReactApp",
+  "name": "ReactApp2",
   "version": "1.0.0",
   "description": "React Boilerplate",
   "scripts": {
@@ -20,7 +20,7 @@
     "Ant Design",
     "StoryBook"
   ],
-  "author": "Ciberbit",
+  "author": "Multiple authors",
   "license": "MIT",
   "dependencies": {
     "@types/systemjs": "^6.1.1",
