@@ -36,7 +36,7 @@ yarn start
 ### Build
 yarn build
 
-## react-libs
+## react-libs-cbe
 React Libs uses `StoryBook` to visualize the UI components among others.
 
 Storybook helps us build UI components in isolation from your app's business logic, data, and context. That makes it easy to develop hard-to-reach states. Save these UI states as stories to revisit during development, testing, or QA.
@@ -44,7 +44,7 @@ Storybook helps us build UI components in isolation from your app's business log
 Browse example stories now by navigating to them in the sidebar. View their code in the `stories/examples` directory to learn how they work. It's recommend building UIs with a component-driven process starting with atomic components and ending with pages.
 
 ### Install dependencies for each react app
-- cd react-libs
+- cd react-libs-cbe
 - yarn
 
 ### Run StoryBook
@@ -54,3 +54,7 @@ yarn storybook
 yarn build-storybook
 
 To deploy the storybook copy the content of the `/public` directory into the web server
+
+### Use Lib locally without being published
+in the project react-app-1 or react-app-2 install lib as a dependency
+yarn add "../react-libs-cbe"

@@ -17,7 +17,7 @@
     "Boilerplate",
     "Ant Design"
   ],
-  "author": "Multiple authors",
+  "author": "YOUR_NAME",
   "license": "MIT",
   "dependencies": {
     "@types/systemjs": "^6.1.1",
